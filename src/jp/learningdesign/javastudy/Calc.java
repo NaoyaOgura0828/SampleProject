@@ -1,6 +1,6 @@
 package jp.learningdesign.javastudy;
 
-public class calc {
+public class Calc {
 
     public static void main(String[] args) {
         // 算術演算子 + - * / %
