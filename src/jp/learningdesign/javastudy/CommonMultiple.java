@@ -1,7 +1,7 @@
 package jp.learningdesign.javastudy;
 
 public class CommonMultiple {
-    /* 1から100までの公倍数を求めるプログラム */
+    /* 1から100未満までの2と3の公倍数を表示するプログラム */
     public static void main(String[] args) {
         int i = 1; // iの初期値を1とする
         while (i < 100) { // iが100になるまでwhileループさせる
