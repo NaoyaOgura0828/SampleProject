@@ -8,12 +8,20 @@ class Staff {
     public void sayhello() {
         System.out.println("Hello " + this.name); // Helloの後に名前を付ける(Staffからnameを呼び出す)
     }
+
+    public Staff(String name, int staffid, String email) {
+        /* Staffクラスのコンストラクタ */
+        super();
+        this.name = name;
+        this.staffid = staffid;
+        this.email = email;
+    }
 }
 
 public class Staffinfo {
     public static void main(String[] args) {
-        Staff yamada = new Staff(); // Staffクラスのyamadaオブジェクトを作成
-        yamada.name = "Taro Yamada"; // yamadaオブジェクトのnameに"Taro Yamada"を格納
+        Staff yamada = new Staff("Taro Yamada", 12345 , "yamada@abc.co.jp"); // Staffクラスのコンストラクタをnew演算子で呼び出している
+        // yamada.name = "Taro Yamada"; // yamadaオブジェクトのnameに"Taro Yamada"を格納
 
         yamada.sayhello(); // sayhelloメソッドを呼び出す処理
 
