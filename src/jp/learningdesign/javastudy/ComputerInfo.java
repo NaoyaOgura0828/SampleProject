@@ -1,7 +1,5 @@
 package jp.learningdesign.javastudy;
 
-import java.util.PrimitiveIterator;
-
 class Computer {
     /* PCスペックの定義 */
     public String os; // 使用OS
